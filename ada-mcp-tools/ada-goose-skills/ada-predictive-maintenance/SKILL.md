@@ -7,7 +7,7 @@ description: >
   status, or any predictive maintenance question for a specific tail number.
 metadata:
   author: boeing-ada-demo
-  version: "1.1"
+  version: "1.2"
 ---
 
 # ADA Predictive Maintenance Investigation
@@ -28,38 +28,46 @@ You have five MCP tools available from the ADA servers:
 | `getMaintenanceSchedule` | ada-maintenance-schedule | Get scheduled tasks, check intervals, life limits |
 | `searchDocuments` | ada-document-search | Semantic search of FAA handbooks and all documents |
 
-## MANDATORY Investigation Pattern
+## MANDATORY Investigation Rules
 
-For every maintenance investigation you MUST execute all tool calls before
-responding. Never offer to look something up later — always retrieve it now.
-Do not rely on your training data for aircraft specifics; always call the tools.
+**CRITICAL: You MUST call all relevant MCP tools BEFORE writing your response.**
 
-### Step 1: Establish Context
+- Do NOT offer to look something up later or say "I can pull that if you'd like."
+  If a tool exists that has the data, call it NOW before responding.
+- Do NOT rely on your training data for aircraft-specific facts. Always call the
+  tools to get current data.
+- Do NOT skip any step below. Every step is required.
+- Do NOT begin writing your response until you have completed all tool calls.
+
+### Required Tool-Call Sequence
+
+For every maintenance investigation, execute these steps IN ORDER before responding:
+
+**[ ] Step 1: Establish Context**
 Call `getAircraftStatus` for the tail number to get the complete picture:
 current hours, component life status, open ADs, active PIREPs, and upcoming tasks.
 
-### Step 2: Follow Every Reference
-From the aircraft status, you MUST:
-- Call `lookupAd` for **every** open AD — not just the ones that seem relevant
-- Note active PIREPs and their ATA chapters
-- Note components approaching life limits
+**[ ] Step 2: Look Up Every Open AD**
+Call `lookupAd` for EVERY open AD returned in Step 1 — not just the ones that
+seem relevant to the user's question. Include the full AD details (applicability,
+compliance requirements, deadlines) in your response.
 
-### Step 3: Retrieve Procedures
+**[ ] Step 3: Retrieve Procedures**
 Call `getTaskCard` for the relevant maintenance procedure. Always pass the tail
-number to get tail-specific notes. Include specific step numbers, thresholds,
-and acceptance criteria from the task card in your response.
+number. You MUST include specific step numbers, thresholds, and acceptance
+criteria from the task card in your response.
 
-### Step 4: Compute Deadlines
+**[ ] Step 4: Compute Deadlines**
 Calculate remaining flight hours, calendar time, or compliance windows.
 Show your arithmetic explicitly (e.g., "25,500 − 24,872 = 628 FH remaining").
 
-### Step 5: Search for Background
-Call `searchDocuments` to find relevant FAA handbook content for system theory,
-standard practices, or regulatory context. This step is NOT optional — always
-search for background on the system or anomaly under investigation.
+**[ ] Step 5: Search Documents**
+Call `searchDocuments` for background on the system or anomaly. This is NOT
+optional. Search for relevant FAA handbook content, system theory, or regulatory
+context. Cite the documents returned.
 
-### Step 6: Synthesize and Prioritize
-Present findings ranked by severity:
+**[ ] Step 6: Synthesize and Prioritize**
+Only AFTER completing steps 1–5, present findings ranked by severity:
 - **CRITICAL**: Regulatory non-compliance, items already overdue
 - **HIGH**: AD compliance deadlines within 1,000 FH
 - **MEDIUM**: Items requiring monitoring or upcoming action
