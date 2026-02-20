@@ -1,0 +1,115 @@
+AIRPLANE-100 AIRCRAFT MAINTENANCE MANUAL
+TASK CARD: DOOR LATCH MECHANISM INSPECTION AND LUBRICATION
+Task ID: AP100-52-001  |  ATA: 52-11-01  |  Rev: 06  |  Date: 2025-03-01
+Zone: 810 (Door 1L/1R), 820 (Door 2L/2R), 830 (Door 3L/3R), 840 (Door 4L/4R)
+Classification: SYNTHETIC DEMO DATA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. REASON FOR THE JOB
+
+Cabin door latch mechanisms must operate positively under all conditions
+including high cabin differential pressure and emergency arming. Worn or
+corroded latches have caused inadvertent door openings and are subject to
+mandatory AD action. Required every 600 flight hours per MPD task AP100-52-001.
+
+2. RELATED AIRWORTHINESS DIRECTIVES
+
+  AD 2025-09505 — Door 1 Latch Mechanism Replacement.
+  Applies to Airplane-100-200 series S/N 2200 through 3100.
+  N123AK S/N AP100-2847 IS within affected range.
+  Status: OPEN. Compliance required before 25,600 FH.
+  N123AK current FH: 24,872. Remaining: 728 FH.
+
+  ACTION REQUIRED: During this inspection, the Door 1L and Door 1R latch
+  cartridges must be inspected per AD 2025-09505 paragraph (e)(1). If
+  cracking is found, cartridges must be replaced before return to service.
+  Replacement P/N: LCA-AP100-D1-REV2.
+
+3. TOOLS AND EQUIPMENT
+
+  - Inspection mirror and flashlight
+  - Dye penetrant inspection kit, P/N DPK-100 (for AD compliance)
+  - Torque wrench 2–15 Nm
+  - AeroFictional Door Grease, P/N LUB-D52-200 (or MIL-PRF-81322 equivalent)
+  - Clean lint-free applicator cloths
+  - Camera for condition documentation
+
+4. PRECAUTIONS
+
+  WARNING: Arm/disarm door slide before opening or closing any cabin door
+  during maintenance. Inadvertent slide deployment can cause fatal injury.
+  Slides on N123AK Door 1L and Door 1R are OVERDUE for replacement (see
+  aircraft technical record ATR-N123AK-2026 Section 2). Flag this finding.
+
+  CAUTION: Do not use petroleum-based lubricants on door seals or girt bar
+  mechanism. Causes seal degradation and girt bar corrosion.
+
+5. PROCEDURE — ALL CABIN DOORS (1L, 1R, 2L, 2R, 3L, 3R, 4L, 4R)
+
+  5.1  DISARM DOOR
+       a. Confirm with cabin crew (or maintenance lead) that door is DISARMED
+          (girt bar in manual/detached position).
+       b. Verify visually: girt bar must be hanging free (not attached to floor bar).
+
+  5.2  EXTERNAL VISUAL INSPECTION
+       a. Inspect latch handle and handle housing for cracks, deformation,
+          or corrosion. Photograph any damage.
+       b. Inspect latch rollers (2 per door): rotate manually — must spin
+          freely with no roughness. Replace if binding.
+       c. Inspect latch hooks: no cracks, no wear groove exceeding 0.5 mm
+          on contact face.
+       d. Inspect door hinge rollers and guide tracks for wear and debris.
+
+  5.3  LATCH CARTRIDGE INSPECTION — DOOR 1L AND DOOR 1R (AD 2025-09505)
+       a. Remove latch cartridge access cover (2 screws, P3 Phillips).
+       b. Apply dye penetrant per DPK-100 kit instructions to:
+            - Latch cartridge body
+            - Cartridge-to-frame mounting flange
+       c. Allow developer dwell time 10–15 minutes.
+       d. Inspect under white light for linear indications (cracks).
+          Any indication on cartridge body or flange = REJECT and replace.
+       e. Replacement P/N: LCA-AP100-D1-REV2. Torque to 12 Nm ± 0.5 Nm.
+       f. Document AD 2025-09505 compliance. Record findings.
+
+  5.4  LUBRICATION
+       a. Apply LUB-D52-200 grease (pea-sized amount) to each of:
+            - Latch roller axles (2 per door)
+            - Latch hook pivot pins (1 per door)
+            - Door hinge roller tracks (wipe on with cloth)
+       b. Do NOT grease: handle handle grip surface, door seal, girt bar pin.
+       c. Wipe away all excess grease.
+
+  5.5  OPERATION CHECK
+       a. From INSIDE aircraft: operate latch handle through full open/close cycle.
+          Handle must move with firm, positive action — no binding, no sponginess.
+       b. From OUTSIDE aircraft (if access available): confirm door closes flush
+          and latch engages positively. Gap between door and frame < 2 mm.
+       c. Log any door requiring excess force to latch — reference any prior
+          PIREP. (N123AK: PIREP 2025-12-04 for Door 2L — verify correction.)
+
+  5.6  EMERGENCY SLIDE CALENDAR CHECK (N123AK SPECIFIC)
+       a. Per ATR-N123AK-2026: Door 1L and Door 1R slides are OVERDUE
+          (installed 2014-06-15, life limit 12 years, expired ~2026-06-15).
+       b. Raise defect report for slide replacement at next available
+          maintenance opportunity. Aircraft may continue operations until
+          slide replacement can be scheduled per MEL provisions — confirm
+          with Maintenance Control.
+       c. Door 2L and Door 2R slides expire 2028-09-01 (2.6 years remaining).
+          No immediate action required; schedule at next C-Check.
+
+  5.7  REARM DOOR
+       a. Rearm door (attach girt bar to floor bar) as directed by cabin crew
+          or maintenance lead.
+       b. Confirm green armed indicator is visible in door window.
+
+6. SIGN-OFF
+
+  Certify completion in aircraft maintenance log referencing:
+  Task AP100-52-001, AMM ref 52-11-01, and AD 2025-09505 (for doors 1L/1R).
+  Record cartridge inspection findings and any defects raised.
+
+  Inspector: _____________________  License No.: ___________  Date: _________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AP100-52-001 Rev 06 | SYNTHETIC DEMO DATA — NOT FOR OPERATIONAL USE

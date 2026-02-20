@@ -1,0 +1,21 @@
+spring:
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE
+        name: ada-maintenance-schedule
+        version: 1.0.0
+        instructions: >
+          This server provides maintenance scheduling data from the Airplane-100
+          Maintenance Planning Document. Query for scheduled tasks by check type
+          (A/B/C/D), ATA chapter, or time horizon. Also provides component life limits.
+          All data is synthetic demo data.
+
+server:
+  port: 8085
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

@@ -1,0 +1,122 @@
+AIRPLANE-100 AIRCRAFT MAINTENANCE MANUAL
+TASK CARD: LANDING GEAR RETRACTION AND EXTENSION FUNCTIONAL TEST
+Task ID: AP100-32-004  |  ATA: 32-31-01  |  Rev: 04  |  Date: 2024-06-15
+Zone: 730 (Nose Gear Bay) / 740 (Main Gear Bay — Left) / 750 (Main Gear Bay — Right)
+Classification: SYNTHETIC DEMO DATA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. REASON FOR THE JOB
+
+Full extension and retraction functional test verifies correct operation of
+the landing gear actuators, uplocks, downlocks, door sequencing, and position
+indication system. Required every 3,000 flight hours per MPD task AP100-32-004,
+or any time landing gear maintenance has been performed.
+
+2. RELATED AIRWORTHINESS DIRECTIVES
+
+  AD 2023-10332 — Landing Gear Retract Actuator Inspection.
+  Status on N123AK: COMPLIED 2024-03-18.
+
+  NOTE for N123AK: Maintenance log entry 2026-01-22 records nose gear shimmy
+  on landing rollout. Inspect shimmy dampener condition during step 6.3 of
+  this task and record findings.
+
+3. PREREQUISITES
+
+  - Aircraft must be on approved jacking points (Jack per AMM 07-11-01)
+  - Hydraulic System 1 and System 3 must be pressurized via ground cart
+  - Gear bay areas must be clear of personnel and equipment before cycling
+  - Two mechanics required minimum (one in cockpit, one observing gear bays)
+  - Aircraft must NOT be on jacks outdoors in winds exceeding 25 knots
+
+4. TOOLS AND EQUIPMENT
+
+  - Aircraft jacking kit, P/N JK-AP100-001 (3-point jack)
+  - Hydraulic ground cart (3,000 PSI)
+  - Gear bay safety locks (red-tagged) — REMOVE before test
+  - Nose gear shimmy dampener test kit, P/N SDT-NLG-100
+  - Flashlight or inspection light
+  - Headset for cockpit/bay communication
+
+5. PRECAUTIONS
+
+  WARNING: NEVER stand beneath or between any gear door or gear leg during
+  retraction or extension. Gear loads exceed 40,000 N. Fatal crush hazard.
+
+  WARNING: Confirm all gear bay safety locks are REMOVED and all tools,
+  stands, and personnel are CLEAR before operating gear selector.
+
+  CAUTION: Do not cycle landing gear more than 5 times consecutively without
+  allowing hydraulic fluid temperature to stabilize below 80°C.
+
+6. PROCEDURE
+
+  6.1  JACK AIRCRAFT
+       a. Position jacks per AMM 07-11-01 (nose jack point and two main
+          wing jack points).
+       b. Raise aircraft until all gear are 150 mm minimum clear of ground.
+       c. Confirm aircraft is level — use leveling reference per AMM 08-11-01.
+
+  6.2  CONNECT GROUND HYDRAULICS
+       a. Connect ground hydraulic cart to System 1 and System 3 service ports.
+       b. Pressurize both systems to 3,000 PSI ± 50 PSI.
+       c. Confirm no leaks at connection points before proceeding.
+
+  6.3  NOSE GEAR SHIMMY DAMPENER INSPECTION (N123AK SPECIFIC — PIREP 2026-01-22)
+       a. With gear extended, manually compress and extend shimmy dampener
+          through full stroke (100 mm).
+       b. Resistance must be firm and progressive — no sponginess or free play.
+       c. Check dampener fluid level sight glass: must be visible in green band.
+       d. Inspect dampener attachment bolts for torque and security.
+       e. If any finding is out of tolerance: raise defect, do not proceed
+          to retraction test until corrected.
+       f. Record findings in maintenance log referencing PIREP 2026-01-22.
+
+  6.4  RETRACTION TEST (3 CYCLES)
+       a. Mechanic 2: position in clear area with view of all three gear bays.
+          Confirm via headset: "Gear bays clear, ready to retract."
+       b. Mechanic 1 (cockpit): confirm gear selector is DOWN.
+       c. Mechanic 1: move gear selector to UP.
+       d. Observe:
+            - All three gear legs retract within 12 seconds
+            - All gear doors close fully (no gap > 5 mm)
+            - Green gear-down lights extinguish; no unsafe indication
+            - No abnormal noise (clunking, binding, or hydraulic surging)
+       e. Mechanic 1: move gear selector to DOWN.
+       f. Observe:
+            - All three gear legs extend and lock within 15 seconds
+            - All three green gear-down lights illuminate
+            - Gear doors retract to open position (main gear doors)
+            - Nose gear doors close (normal — nose gear doors close in down)
+       g. Repeat steps (c) through (f) for a total of 3 complete cycles.
+
+  6.5  POSITION INDICATION SYSTEM CHECK
+       a. With gear DOWN and locked: verify 3 green, 0 red on gear panel.
+       b. Pull gear door proximity switch — verify red unsafe light illuminates
+          within 2 seconds. Reset switch.
+       c. Confirm EICAS gear position display matches cockpit gear panel.
+
+  6.6  HYDRAULIC LEAK CHECK
+       a. After cycling, inspect all actuators and hydraulic lines in gear bays
+          for weeping or active leaks.
+       b. Maximum allowable seepage: 3 drops per minute per actuator seal.
+          Active leakage requires rectification before return to service.
+
+  6.7  LOWER AIRCRAFT AND CLOSE-UP
+       a. Confirm gear is DOWN and locked (3 greens).
+       b. Install gear bay safety locks (red-tagged) if aircraft remains on jacks.
+       c. Disconnect hydraulic ground cart.
+       d. Lower aircraft per AMM 07-11-01.
+       e. Remove jacks and stow equipment.
+
+7. SIGN-OFF
+
+  Certify completion in aircraft maintenance log referencing:
+  Task AP100-32-004, AMM ref 32-31-01.
+  Record number of cycles performed and any findings.
+
+  Inspector: _____________________  License No.: ___________  Date: _________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AP100-32-004 Rev 04 | SYNTHETIC DEMO DATA — NOT FOR OPERATIONAL USE

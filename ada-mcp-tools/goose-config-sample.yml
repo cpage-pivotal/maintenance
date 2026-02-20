@@ -1,0 +1,43 @@
+# Sample Goose Configuration for ADA Predictive Maintenance Demo
+# Copy this file to goose-agent-chat/src/main/resources/.goose-config.yml
+# or merge the mcpServers and skills entries into an existing config.
+#
+# See: https://block.github.io/goose/docs/guides/configuration-files/
+
+provider: openai
+model: gpt-5.2-chat-latest
+
+extensions:
+  developer:
+    enabled: true
+
+session:
+  max_turns: 100
+
+skills:
+  - name: ada-predictive-maintenance
+    source: https://github.com/cpage-pivotal/ada-mcp-tools.git
+    branch: main
+    path: ada-goose-skills/ada-predictive-maintenance
+  - name: ada-procedure-lookup
+    source: https://github.com/cpage-pivotal/ada-mcp-tools.git
+    branch: main
+    path: ada-goose-skills/ada-procedure-lookup
+
+mcpServers:
+  # ADA Predictive Maintenance MCP Servers
+  - name: ada-document-search
+    type: streamable_http
+    url: "https://ada-document-search.apps.tas-ndc.kuhn-labs.com/mcp"
+  - name: ada-aircraft-status
+    type: streamable_http
+    url: "https://ada-aircraft-status.apps.tas-ndc.kuhn-labs.com/mcp"
+  - name: ada-ad-lookup
+    type: streamable_http
+    url: "https://ada-ad-lookup.apps.tas-ndc.kuhn-labs.com/mcp"
+  - name: ada-task-card
+    type: streamable_http
+    url: "https://ada-task-card.apps.tas-ndc.kuhn-labs.com/mcp"
+  - name: ada-maintenance-schedule
+    type: streamable_http
+    url: "https://ada-maintenance-schedule.apps.tas-ndc.kuhn-labs.com/mcp"

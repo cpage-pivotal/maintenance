@@ -1,0 +1,14 @@
+/ada-mcp-tools/ada-mcp-document-search/vars.yaml
+
+# Maven build output
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Large binary corpus (not suitable for git)
+airworthiness_directives/
+faa_handbooks/
+faa_handbooks_split/
+synthetic_airplane100/

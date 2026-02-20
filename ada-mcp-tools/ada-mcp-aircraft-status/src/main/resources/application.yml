@@ -1,0 +1,21 @@
+spring:
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE
+        name: ada-aircraft-status
+        version: 1.0.0
+        instructions: >
+          This server provides structured aircraft status data for tail numbers in the
+          Airplane-100 fleet. Returns flight hours, flight cycles, component life status,
+          open PIREPs, open Airworthiness Directives, and upcoming scheduled tasks.
+          All data is synthetic demo data.
+
+server:
+  port: 8082
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

@@ -1,0 +1,111 @@
+AIRPLANE-100 AIRCRAFT MAINTENANCE MANUAL
+TASK CARD: IDG OIL LEVEL CHECK AND CONDITION INSPECTION
+Task ID: AP100-24-001  |  ATA: 24-11-01  |  Rev: 03  |  Date: 2024-08-01
+Zone: 410 (Left Engine Pylon) / 420 (Right Engine Pylon)
+Classification: SYNTHETIC DEMO DATA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. REASON FOR THE JOB
+
+The Integrated Drive Generator (IDG) supplies constant-frequency AC electrical
+power to the aircraft. Oil level and condition directly affect IDG cooling and
+bearing life. Degraded oil causes premature disconnects and potential loss of
+one AC electrical bus. This inspection is required every 600 flight hours
+per MPD task AP100-24-001.
+
+2. RELATED AIRWORTHINESS DIRECTIVES
+
+  AD 2025-04782 — IDG Oil Contamination Inspection (Boeing-derived, applied to
+  Airplane-100 by similarity). Requires visual and spectrometric inspection of
+  IDG oil for metallic particulate above threshold. Compliance required before
+  25,500 FH on affected aircraft.
+
+  Note for N123AK: AD 2025-04782 is OPEN. Right IDG (IDG-R-9913) has a crew
+  PIREP of temperature fluctuation. Spectrometric sample REQUIRED at this check.
+
+3. TOOLS AND EQUIPMENT REQUIRED
+
+  - IDG oil service cart, P/N GS-IDG-100
+  - Oil sample kit, P/N OSK-7700 (for spectrometric analysis)
+  - Torque wrench, 5–25 Nm range
+  - Safety wire pliers
+  - Clean lint-free cloths
+  - AeroFictional IDG Oil, Spec MIL-PRF-23699F (or approved equivalent)
+
+4. CONSUMABLES
+
+  IDG oil:  MIL-PRF-23699F class HTS — quantity per step 6.4
+  Safety wire: 0.032 in. diameter stainless
+
+5. PRECAUTIONS
+
+  WARNING: Allow IDG to cool for minimum 30 minutes after engine shutdown
+  before opening filler cap. Internal pressure and temperature can cause
+  hot oil ejection resulting in serious burns.
+
+  CAUTION: Do not mix oil types. Using incorrect oil specification will
+  contaminate the IDG and require flush maintenance per AP100-24-009.
+
+  NOTE: If IDG oil appears dark brown, milky, or contains visible metal
+  particles, do not return to service. Escalate to AP100-24-004 IDG
+  overhaul and notify Engineering.
+
+6. PROCEDURE
+
+  6.1  PREPARATION
+       a. Ensure both engines are shut down and cool (EGT < 100°C).
+       b. Position maintenance stand to access IDG service panel,
+          Zone 410 (left) or Zone 420 (right).
+       c. Open IDG service panel — two quarter-turn fasteners.
+
+  6.2  EXTERNAL CONDITION CHECK
+       a. Inspect IDG case exterior for oil weeping or staining around
+          the oil filler cap, drain plug, and case joint.
+       b. Inspect oil cooler lines for chafing, security, and leaks.
+       c. Record condition in maintenance log. Any leakage exceeding
+          a slow seep requires rectification before return to service.
+
+  6.3  OIL LEVEL CHECK
+       a. Remove oil filler/sight glass cap — counterclockwise.
+       b. Oil level must be visible in the sight glass, between the
+          MIN and MAX marks.
+       c. If level is below MIN: add oil per step 6.4.
+       d. If level is above MAX: drain excess and investigate cause.
+          Overfill can indicate internal coolant contamination.
+
+  6.4  OIL REPLENISHMENT (IF REQUIRED)
+       a. Using clean funnel or service cart, add MIL-PRF-23699F oil
+          in 0.1-liter increments.
+       b. Do not exceed MAX mark. Recheck sight glass after each addition.
+       c. Maximum replenishment without further investigation: 0.4 liters.
+          If more than 0.4 liters required, raise defect report.
+
+  6.5  OIL SAMPLE (REQUIRED FOR N123AK — AD 2025-04782 COMPLIANCE)
+       a. Using oil sample kit OSK-7700, extract 100 ml sample from
+          the drain/sample port on the IDG lower case.
+       b. Label sample bottle: Aircraft Tail, IDG position (L or R),
+          Date, Total FH, and TSI of IDG.
+       c. Submit sample to approved spectrometric analysis laboratory
+          within 24 hours. Hold aircraft if result exceeds:
+            - Iron (Fe): > 50 ppm
+            - Copper (Cu): > 30 ppm
+            - Tin (Sn): > 15 ppm
+       d. Record AD 2025-04782 compliance action in aircraft log.
+
+  6.6  CLOSE-UP
+       a. Install filler cap — clockwise to seat, then 1/4 turn.
+          Torque: 8–10 Nm.
+       b. Safety wire cap to case lug per standard safety wire practice.
+       c. Wipe all surfaces clean.
+       d. Close and latch IDG service panel.
+
+7. SIGN-OFF
+
+  Certify completion in aircraft maintenance log referencing:
+  Task AP100-24-001, AMM ref 24-11-01, and (if applicable) AD 2025-04782.
+
+  Inspector: _____________________  License No.: ___________  Date: _________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AP100-24-001 Rev 03 | SYNTHETIC DEMO DATA — NOT FOR OPERATIONAL USE

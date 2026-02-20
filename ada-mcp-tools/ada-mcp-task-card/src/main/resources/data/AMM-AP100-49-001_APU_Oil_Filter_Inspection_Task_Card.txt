@@ -1,0 +1,102 @@
+AIRPLANE-100 APU TASK CARD: OIL LEVEL AND FILTER INSPECTION
+Task ID: AP100-49-001  |  ATA: 49-11-01  |  Rev: 02  |  Date: 2024-01-10
+Zone: 315 (APU Compartment — Aft Fuselage, Frames 78–85)
+Classification: SYNTHETIC DEMO DATA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. REASON FOR THE JOB
+
+The Auxiliary Power Unit (APU) provides ground and in-flight bleed air and
+electrical power. Oil level and filter condition directly affect bearing life
+and early detection of internal wear. Required every 600 flight hours per
+MPD task AP100-49-001.
+
+NOTE for N123AK: APU S/N APU-10847, TSN 24,100 FH against 30,000 FH life
+limit (5,900 FH remaining). APU is approaching final third of service life —
+oil condition trending is especially important at this stage.
+
+2. TOOLS AND EQUIPMENT
+
+  - APU oil service unit or clean funnel
+  - Oil filter removal tool, P/N APUFILT-100
+  - Torque wrench 5–50 Nm
+  - Oil sample kit, P/N OSK-7700
+  - AuxPower AP422 APU Oil, Spec MIL-PRF-23699F
+  - Replacement oil filter, P/N AP422-FILT-A (one per service)
+  - O-ring kit, P/N AP422-OR-KIT
+
+3. PRECAUTIONS
+
+  WARNING: APU must be shut down and cool (EGT < 150°C) before opening
+  APU compartment. Hot surfaces can cause serious burns.
+
+  WARNING: APU fuel shutoff must be confirmed CLOSED before entering
+  APU compartment.
+
+  CAUTION: Capture all drained oil. Spilled oil on APU exhaust duct
+  creates a fire hazard.
+
+4. PROCEDURE
+
+  4.1  ACCESS
+       a. Confirm APU is shutdown and cool.
+       b. Open APU access door — aft fuselage, left side (Zone 315).
+          Four quarter-turn fasteners.
+       c. Confirm APU FUEL SHUTOFF handle is in CLOSED position (cockpit
+         or ground panel). Tag out per local lockout/tagout procedure.
+
+  4.2  OIL LEVEL CHECK
+       a. Locate oil level sight glass on APU oil tank (forward left of APU).
+       b. Oil level must be between MIN and MAX marks on sight glass.
+       c. If below MIN: add oil per step 4.3.
+       d. If above MAX: drain excess and investigate — possible combustion
+          gas ingestion causing oil foaming.
+
+  4.3  OIL REPLENISHMENT (IF REQUIRED)
+       a. Open oil filler cap (top of oil tank, counterclockwise).
+       b. Add MIL-PRF-23699F oil in 0.1-liter increments to MAX mark.
+       c. Maximum replenishment without investigation: 0.5 liters.
+          Excess consumption = raise defect.
+
+  4.4  OIL FILTER REPLACEMENT (EVERY SERVICE)
+       a. Place drip tray beneath oil filter housing (lower left of APU).
+       b. Using APUFILT-100, remove filter cartridge (counterclockwise).
+          Allow oil to drain fully into tray (~300 ml expected).
+       c. Inspect old filter element:
+            - Cut open element and inspect for metallic debris
+            - Any ferrous particles larger than 1 mm = APU hold, notify Engineering
+            - Record finding and filter condition in log
+       d. Lubricate new filter O-ring with clean APU oil.
+       e. Install new filter AP422-FILT-A. Hand-tighten then torque 25 Nm.
+       f. Safety wire filter to housing lug (0.032 in. stainless).
+
+  4.5  OIL SAMPLE (RECOMMENDED — N123AK APU CONDITION MONITORING)
+       a. Extract 100 ml sample from drain port.
+       b. Label: Tail N123AK, APU, Date, APU TSN 24,100 FH.
+       c. Submit to lab. Flag if:
+            - Iron (Fe) > 40 ppm (bearing wear indicator)
+            - Silicon (Si) > 20 ppm (seal degradation indicator)
+       d. Trend comparison: if Fe has increased >15 ppm since last sample,
+          recommend APU borescope inspection (AP100-49-004).
+
+  4.6  CLOSE-UP AND LEAK CHECK
+       a. Confirm oil filler cap installed and torqued (8 Nm), safety wired.
+       b. Remove drain tray. Wipe all surfaces clean.
+       c. Remove lockout/tagout. Close APU access door and latch.
+       d. Start APU per APU Operating Procedure (normal ground start).
+          Run for 5 minutes. Shut down.
+       e. After cool-down (5 minutes), re-open access door.
+          Inspect filter and oil cap for leaks. No leakage permitted.
+       f. Re-check oil level — confirm within MIN/MAX.
+
+5. SIGN-OFF
+
+  Certify completion in aircraft maintenance log referencing:
+  Task AP100-49-001, AMM ref 49-11-01.
+  Record filter condition, oil quantity added, and sample disposition.
+
+  Inspector: _____________________  License No.: ___________  Date: _________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AP100-49-001 Rev 02 | SYNTHETIC DEMO DATA — NOT FOR OPERATIONAL USE

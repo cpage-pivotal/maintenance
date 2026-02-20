@@ -1,0 +1,20 @@
+spring:
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE
+        name: ada-task-card
+        version: 1.0.0
+        instructions: >
+          This server provides maintenance task card (AMM procedure) retrieval for the
+          Airplane-100. Returns step-by-step procedures with tail-specific notes,
+          precautions, referenced ADs, and sign-off requirements. All data is synthetic demo data.
+
+server:
+  port: 8084
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

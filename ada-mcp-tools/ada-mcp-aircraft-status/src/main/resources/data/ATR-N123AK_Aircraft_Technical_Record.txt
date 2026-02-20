@@ -1,0 +1,116 @@
+AIRPLANE-100 AIRCRAFT TECHNICAL RECORD — TAIL N123AK
+Document No.: ATR-N123AK-2026  |  Date: 2026-02-19
+Operator: DemoAir LLC  |  Base: Houston Intercontinental (IAH)
+Classification: SYNTHETIC DEMO DATA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1 — AIRCRAFT IDENTITY
+
+Registration:         N123AK
+Model:                Airplane-100-200ER
+Manufacturer S/N:     AP100-2847
+Line Number:          312
+Year of Manufacture:  2011
+Certificate of Airworthiness: FAA-COA-2011-AP100-2847
+Total Flight Hours:   24,872 FH
+Total Flight Cycles:  18,441 FC
+Date of Last A-Check: 2025-12-04  (at 24,612 FH)
+Next A-Check Due:     25,212 FH   (approx. 2026-04-01)
+Last C-Check:         2024-03-18  (at 22,510 FH)
+Next C-Check Due:     30,010 FH   (approx. 2027-09-01)
+
+Engine 1 (Left):      TF77-44821  (TSN: 18,200 FH | CSN: 13,800 FC)
+Engine 2 (Right):     TF77-44822  (TSN: 18,200 FH | CSN: 13,800 FC)
+APU:                  AP422-10847 (TSN: 24,100 FH)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 2 — COMPONENT STATUS (KEY LIFE-TRACKED ITEMS)
+
+As of 2026-02-19 | Aircraft Total: 24,872 FH / 18,441 FC
+
+COMPONENT                           P/N             S/N           INSTALLED   TSI       LIMIT    REMAINING   STATUS
+----------------------------------  --------------  ------------  ----------  --------  -------  ----------  --------
+IDG Assembly — Left Engine          IDG-TF77-L01    IDG-L-9912    2024-03-18  2,362 FH  7,500 FH  5,138 FH   OK
+IDG Assembly — Right Engine         IDG-TF77-R01    IDG-R-9913    2022-08-10  5,890 FH  7,500 FH  1,610 FH   MONITOR
+APU Assembly                        AP422-CORE      APU-10847     2011-06-01  24,100 FH 30,000 FH 5,900 FH   OK
+Nose Landing Gear Outer Cylinder    NLG-AP100-OC1   NLG-OC-4421   2020-09-14  8,100 FC  15,000 FC 6,900 FC   OK
+Main Landing Gear Axle — LH Fwd     MLG-AP100-AX1   MLG-AX-2201   2018-11-02  12,440 FC 20,000 FC 7,560 FC   OK
+Main Landing Gear Axle — LH Aft     MLG-AP100-AX1   MLG-AX-2202   2018-11-02  12,440 FC 20,000 FC 7,560 FC   OK
+Main Landing Gear Axle — RH Fwd     MLG-AP100-AX1   MLG-AX-2203   2021-04-20  6,820 FC  20,000 FC 13,180 FC  OK
+Main Landing Gear Axle — RH Aft     MLG-AP100-AX1   MLG-AX-2204   2021-04-20  6,820 FC  20,000 FC 13,180 FC  OK
+Engine Fan Blade Set — Eng 1        TF77-FAN-SET    FBS-44821     2022-08-10  5,890 FH  10,000 FH 4,110 FH   OK
+Engine Fan Blade Set — Eng 2        TF77-FAN-SET    FBS-44822     2022-08-10  5,890 FH  10,000 FH 4,110 FH   OK
+Elevator PCU                        EPCU-AP100-01   EPCU-0771     2019-03-22  10,200 FH 15,000 FH 4,800 FH   OK
+Emergency Slide — Door 1L           SLIDE-AP100     SL-D1L-8823   2014-06-15  —         12 years  0.3 years  *** OVERDUE ***
+Emergency Slide — Door 1R           SLIDE-AP100     SL-D1R-8824   2014-06-15  —         12 years  0.3 years  *** OVERDUE ***
+Emergency Slide — Door 2L           SLIDE-AP100     SL-D2L-8825   2016-09-01  —         12 years  2.6 years  ALERT
+Emergency Slide — Door 2R           SLIDE-AP100     SL-D2R-8826   2016-09-01  —         12 years  2.6 years  ALERT
+Passenger O2 Generators (all)       OXY-GEN-AP100   —             2018-02-28  —         12 years  4.1 years  OK
+Crew O2 Cylinder — Fwd              OXY-CYL-CREW    OXY-FWD-441   2023-11-10  —         5 years   2.7 years  OK
+Crew O2 Cylinder — Aft              OXY-CYL-CREW    OXY-AFT-442   2023-11-10  —         5 years   2.7 years  OK
+
+TSI = Time Since Installation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 3 — SCHEDULED TASK STATUS (UPCOMING WITHIN 1,000 FH)
+
+Next A-Check due at 25,212 FH (340 FH remaining as of today)
+
+TASK ID          DESCRIPTION                              DUE FH    REMAINING  OVERDUE?
+---------------  ---------------------------------------  --------  ---------  --------
+AP100-24-001     IDG oil level and condition — LEFT       25,212    340 FH     No
+AP100-24-001     IDG oil level and condition — RIGHT      25,212    340 FH     No
+AP100-26-001     Fire detection loop functional test      25,212    340 FH     No
+AP100-27-001     Elevator control cable inspection        25,212    340 FH     No
+AP100-27-003     Rudder PCU leak inspection               25,212    340 FH     No
+AP100-28-003     Fuel boost pump operation check          25,212    340 FH     No
+AP100-29-001     Hydraulic fluid level — 3 systems        25,212    340 FH     No
+AP100-32-001     Nose gear strut extension inspection     25,212    340 FH     No
+AP100-32-003     Brake assembly wear inspection           25,212    340 FH     No
+AP100-35-001     Passenger oxygen mask operation check    25,212    340 FH     No
+AP100-35-002     Crew oxygen cylinder pressure check      25,212    340 FH     No
+AP100-49-001     APU oil level and filter inspection      25,212    340 FH     No
+AP100-52-001     All door latch mechanism inspection      25,212    340 FH     No
+AP100-72-001     Engine oil filter replacement — Eng 1    25,212    340 FH     No
+AP100-72-001     Engine oil filter replacement — Eng 2    25,212    340 FH     No
+AP100-24-002     IDG oil filter replacement — RIGHT       25,500    628 FH     No
+AP100-24-003     IDG disconnect test — RIGHT              25,500    628 FH     No
+AP100-72-001     Borescope — fan & LPC — Eng 1           25,500    628 FH     No
+AP100-72-001     Borescope — fan & LPC — Eng 2           25,500    628 FH     No
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 4 — OPEN AIRWORTHINESS DIRECTIVE COMPLIANCE
+
+AD NUMBER       TITLE (ABBREVIATED)                         STATUS       DUE
+--------------  ------------------------------------------  -----------  -------------------
+2025-04782      IDG Oil Contamination Inspection            OPEN         Before 25,500 FH
+2023-10332      Landing Gear Retract Actuator Inspection    COMPLIED     Complied 2024-03-18
+2024-20389      Fuel Tank Wiring Inspection                 OPEN         Before 2027-01-01
+2021-25494      Fire Detection Loop — Dual Channel Check    COMPLIED     Complied 2024-03-18
+2025-09505      Door 1 Latch Mechanism Replacement          OPEN         Before 25,600 FH
+2023-07741      Oxygen Generator Replacement Schedule       COMPLIED     Complied 2018-02-28
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 5 — MAINTENANCE NOTES & PIREPS
+
+DATE        ENTERED BY   ATA   NOTE
+----------  -----------  ----  ---------------------------------------------------
+2026-02-08  Capt. R. Morse  24   Crew reported IDG-RIGHT temperature fluctuation
+                                 +15°C above normal during cruise at FL380.
+                                 ENG noted for inspection at next A-Check.
+2026-01-22  Mech. T. Okafor 32  Nose gear shimmy observed during landing rollout
+                                 at IAH. Dampener checked — within limits.
+                                 Monitor at next check.
+2025-12-04  Mech. T. Okafor 52  Door 2L latch required excess force to close.
+                                 Lubricated per AMM AP100-52-002. Ops normal.
+                                 Note: slide approaching calendar life limit.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+END OF DOCUMENT
+ATR-N123AK-2026 | SYNTHETIC DEMO DATA — NOT FOR OPERATIONAL USE

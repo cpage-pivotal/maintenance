@@ -1,0 +1,130 @@
+AIRPLANE-100 MAINTENANCE PLANNING DOCUMENT (MPD)
+Document No.: AP100-MPD-001  |  Revision: 05  |  Date: 2025-01-15
+Issuing Authority: AeroFictional Industries, Engineering Division
+ATA Reference: iSpec 2200 | Classification: SYNTHETIC DEMO DATA
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 1 — AIRCRAFT APPLICABILITY
+
+Model:          Airplane-100 Series (A100-200, A100-200ER, A100-300)
+Engines:        AeroFictional TF-77 Turbofan (2x)
+APU:            AuxPower Model AP-422
+Max Takeoff:    79,000 kg (174,165 lb)
+Typical Range:  5,600 nm
+Entry Service:  2008
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 2 — MAINTENANCE CHECK DEFINITIONS
+
+CHECK   INTERVAL           ELAPSED TIME     TYPICAL DURATION
+------  -----------------  ---------------  ----------------
+A-Check Every 600 FH       ~7–8 weeks       8–10 hours
+B-Check Every 3,000 FH     ~6 months        1–3 days
+C-Check Every 7,500 FH     ~18–20 months    1–2 weeks
+D-Check Every 30,000 FH    ~10 years        2–3 months
+
+FH = Flight Hours
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 3 — SCHEDULED MAINTENANCE TASKS
+
+ATA  SYSTEM                  TASK ID          TASK DESCRIPTION                        INTERVAL   CHECK
+---  ----------------------  ---------------  --------------------------------------  ---------  -----
+21   Air Conditioning        AP100-21-001     Inspect outflow valve operation         600 FH     A
+21   Air Conditioning        AP100-21-002     Functional test pack cooling flow       3,000 FH   B
+21   Air Conditioning        AP100-21-003     Overhaul recirculation fans             7,500 FH   C
+21   Pressurization          AP100-21-010     Inspect pressure controller             600 FH     A
+21   Pressurization          AP100-21-011     Calibrate cabin altitude controller     3,000 FH   B
+24   Electrical Power        AP100-24-001     Inspect IDG oil level and condition     600 FH     A
+24   Electrical Power        AP100-24-002     IDG oil filter replacement              3,000 FH   B
+24   Electrical Power        AP100-24-003     IDG disconnect test                     3,000 FH   B
+24   Electrical Power        AP100-24-004     IDG overhaul or replacement             7,500 FH   C
+24   Electrical Power        AP100-24-010     Battery capacity test — main            3,000 FH   B
+24   Electrical Power        AP100-24-011     Battery capacity test — APU             3,000 FH   B
+26   Fire Protection         AP100-26-001     Functional test fire detection loops    600 FH     A
+26   Fire Protection         AP100-26-002     Engine fire extinguisher check          3,000 FH   B
+26   Fire Protection         AP100-26-003     APU fire bottle hydrostatic test        7,500 FH   C
+27   Flight Controls         AP100-27-001     Inspect elevator control cables         600 FH     A
+27   Flight Controls         AP100-27-002     Lubricate aileron hinge bearings        3,000 FH   B
+27   Flight Controls         AP100-27-003     Inspect rudder PCU for leaks            600 FH     A
+27   Flight Controls         AP100-27-004     Flight control surface play check       3,000 FH   B
+27   Flight Controls         AP100-27-005     Full flight control functional test     7,500 FH   C
+28   Fuel System             AP100-28-001     Fuel quantity indicator calibration     3,000 FH   B
+28   Fuel System             AP100-28-002     Fuel filter element replacement         3,000 FH   B
+28   Fuel System             AP100-28-003     Inspect fuel boost pump operation       600 FH     A
+28   Fuel System             AP100-28-004     Fuel tank internal inspection           7,500 FH   C
+28   Fuel System             AP100-28-005     Fuel tank wiring harness inspection     7,500 FH   C
+29   Hydraulics              AP100-29-001     Check hydraulic fluid level (3 systems) 600 FH     A
+29   Hydraulics              AP100-29-002     Hydraulic fluid sample analysis         3,000 FH   B
+29   Hydraulics              AP100-29-003     Inspect actuator seals — flight control 3,000 FH   B
+29   Hydraulics              AP100-29-004     Hydraulic reservoir replacement         7,500 FH   C
+29   Hydraulics              AP100-29-005     Pressure test complete hydraulic system 7,500 FH   C
+32   Landing Gear            AP100-32-001     Inspect nose gear strut extension       600 FH     A
+32   Landing Gear            AP100-32-002     Lubricate main gear trunnion bearings   3,000 FH   B
+32   Landing Gear            AP100-32-003     Inspect brake assembly wear             600 FH     A
+32   Landing Gear            AP100-32-004     Retraction and extension functional test 3,000 FH  B
+32   Landing Gear            AP100-32-005     Overhaul nose gear assembly             7,500 FH   C
+32   Landing Gear            AP100-32-006     Overhaul main gear assembly             30,000 FH  D
+34   Navigation              AP100-34-001     Functional test IRS alignment           3,000 FH   B
+34   Navigation              AP100-34-002     FMC software version verification       3,000 FH   B
+34   Navigation              AP100-34-003     Inspect ADIRU mounting and connectors   7,500 FH   C
+35   Oxygen                  AP100-35-001     Inspect passenger oxygen mask operation 600 FH     A
+35   Oxygen                  AP100-35-002     Check crew oxygen cylinder pressure     600 FH     A
+35   Oxygen                  AP100-35-003     Passenger oxygen generator replacement  7,500 FH   C
+49   APU                     AP100-49-001     APU oil level and filter inspection     600 FH     A
+49   APU                     AP100-49-002     APU bleed air valve functional test     3,000 FH   B
+49   APU                     AP100-49-003     APU compressor wash                     3,000 FH   B
+49   APU                     AP100-49-004     APU hot section inspection              7,500 FH   C
+49   APU                     AP100-49-005     APU overhaul                            30,000 FH  D
+52   Doors                   AP100-52-001     Inspect all door latch mechanisms       600 FH     A
+52   Doors                   AP100-52-002     Lubricate door hinge assemblies         3,000 FH   B
+52   Doors                   AP100-52-003     Emergency exit slide deployment test    3,000 FH   B
+52   Doors                   AP100-52-004     Door seal replacement                   7,500 FH   C
+72   Engine                  AP100-72-001     Borescope inspection — fan & LPC        3,000 FH   B
+72   Engine                  AP100-72-002     Engine oil filter replacement           600 FH     A
+72   Engine                  AP100-72-003     Inspect engine mounts                   3,000 FH   B
+72   Engine                  AP100-72-004     Engine vibration survey                 3,000 FH   B
+72   Engine                  AP100-72-005     Engine hot section inspection            7,500 FH   C
+72   Engine                  AP100-72-006     Engine overhaul (shop visit)            30,000 FH  D
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 4 — COMPONENT LIFE LIMITS (HARD TIME REPLACEMENTS)
+
+COMPONENT                           P/N             LIFE LIMIT    ATA
+----------------------------------  --------------  ------------  ---
+IDG Assembly — Left Engine          IDG-TF77-L01    7,500 FH      24
+IDG Assembly — Right Engine         IDG-TF77-R01    7,500 FH      24
+APU Assembly                        AP422-CORE      30,000 FH     49
+Nose Landing Gear Outer Cylinder    NLG-AP100-OC1   15,000 FC     32
+Main Landing Gear Axle (x4)         MLG-AP100-AX1   20,000 FC     32
+Engine Fan Blade Set (per engine)   TF77-FAN-SET    10,000 FH     72
+Elevator PCU                        EPCU-AP100-01   15,000 FH     27
+Passenger O2 Generator (per unit)   OXY-GEN-AP100   12 years      35
+Crew O2 Cylinder                    OXY-CYL-CREW    5 years       35
+Emergency Exit Slide (per door)     SLIDE-AP100     12 years      52
+
+FC = Flight Cycles
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECTION 5 — AD COMPLIANCE TRACKING REQUIREMENTS
+
+All Airworthiness Directives applicable to Airplane-100 series aircraft must be
+tracked at the tail-number level. Operators must maintain compliance records
+cross-referenced against:
+  - FAA AD number
+  - Effective date
+  - Compliance method (one-time inspection, recurring, terminating action)
+  - Last compliance date and next due (in FH and calendar)
+
+For recurring ADs, the compliance management system must generate a pre-alert
+at 90% of the compliance interval and a hard alert at 100%.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+END OF DOCUMENT
+AP100-MPD-001 Rev 05 | SYNTHETIC DEMO DATA — NOT FOR OPERATIONAL USE

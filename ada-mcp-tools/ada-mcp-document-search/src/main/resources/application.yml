@@ -1,0 +1,40 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 300MB
+      max-request-size: 300MB
+  ai:
+    mcp:
+      server:
+        protocol: STREAMABLE
+        name: ada-document-search
+        version: 1.0.0
+        instructions: >
+          This server provides semantic search over the ADA maintenance document corpus,
+          including FAA handbooks, Airworthiness Directives, maintenance planning documents,
+          aircraft technical records, and AMM task cards. All Airplane-100 and N123AK data
+          is synthetic demo data.
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+        dimensions: 1536
+        index-type: HNSW
+    openai:
+      embedding:
+        options:
+          model: text-embedding-3-small
+
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+ada:
+  ingestion:
+    chunk-size: 750
+    min-chunk-size: 350
+    max-chunks-per-document: 10000
