@@ -1,0 +1,48 @@
+# service.yaml
+name: ada-aircraft-status
+description: Model Context Protocol server for aircraft technical status and maintenance records
+metadata:
+  displayName: Aircraft Status MCP Server
+  longDescription: This MCP Server provides an LLM interface for querying aircraft technical records by tail number. It returns structured operational data including flight hours, flight cycles, component time-since-installation, open PIREPs, open Airworthiness Directives, and upcoming scheduled maintenance tasks. Designed as the entry point for tail-number-specific maintenance investigations. Built with Spring AI.
+  providerDisplayName: Boeing ADA Team
+  logo: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCI+CiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iNTAiIGZpbGw9IiMxNTY1QzAiLz4KICA8cGF0aCBkPSJNODIgNDYgTDU3IDQ2IEw0MCAyMyBMMzEgMjMgTDQyIDQ2IEwxOCA0NiBMMTMgMzkgTDggMzkgTDEzIDUwIEw4IDYxIEwxMyA2MSBMMTggNTQgTDQyIDU0IEwzMSA3NyBMNDAgNzcgTDU3IDU0IEw4MiA1NCBDODggNTQgOTIgNTIgOTIgNTAgQzkyIDQ4IDg4IDQ2IDgyIDQ2WiIgZmlsbD0id2hpdGUiLz4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSIzIiBmaWxsPSIjMTU2NUMwIi8+Cjwvc3ZnPgo=
+  documentationUrl: https://github.com/cpage-pivotal/ada-mcp-tools/blob/main/ada-mcp-tools/ada-mcp-aircraft-status/README.md
+  supportUrl: https://github.com/cpage-pivotal/ada-mcp-tools/issues
+  contactEmail: corby.page@broadcom.com
+  license: Apache-2.0
+  version: "1.0.0"
+  schema:
+    openAPIv3: |
+      {
+        "openapi": "3.0.0",
+        "info": {
+          "title": "Aircraft Status MCP Server",
+          "version": "1.0.0",
+          "description": "Model Context Protocol server for querying aircraft technical records and operational status via Streamable HTTP transport"
+        },
+        "paths": {
+          "/mcp": {
+            "get": {
+              "summary": "Streamable HTTP endpoint for MCP communication",
+              "description": "Establishes Streamable HTTP connection for LLM-to-aircraft-record interactions. Exposes the getAircraftStatus tool, which returns flight hours, flight cycles, component status, open PIREPs, open ADs, and upcoming tasks for a given tail number.",
+              "responses": {
+                "200": {
+                  "description": "Streamable HTTP connection established"
+                }
+              }
+            }
+          }
+        }
+      }
+plans:
+  - name: standard
+    description: Aircraft Status MCP Server with Streamable HTTP transport
+    metadata:
+      displayName: Standard Plan
+      bullets:
+        - Query aircraft technical records by tail number
+        - Retrieve flight hours, cycles, and component time-since-installation
+        - Access open PIREPs and Airworthiness Directives
+        - View upcoming scheduled maintenance tasks
+        - Streamable HTTP transport for LLM integration
+      rateLimit: 1000
