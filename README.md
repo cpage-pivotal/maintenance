@@ -1,4 +1,4 @@
-# Boeing Maintenance Agent
+# Aircraft Maintenance Agent
 
 This repository contains the Aircraft Data Analyzer (ADA) tools for the predictive maintenance demonstration. The ADA MCP servers and Goose skills provide an agentic workflow for investigating aircraft maintenance findings, Airworthiness Directive (AD) compliance, component life limits, and procedures.
 
