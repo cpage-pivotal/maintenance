@@ -4,7 +4,7 @@ This repository contains the Aircraft Data Analyzer (ADA) tools for the predicti
 
 ## Goose Agent Configuration
 
-To connect Goose to the ADA tools and skills provided in the `ada-mcp-tools` directory, use the following configuration for your `.goose-config.yml` (located at `goose-agent-chat/src/main/resources/.goose-config.yml`):
+To connect [Goose Buildpack](https://github.com/cpage-pivotal/goose-buildpack) to the ADA tools and skills provided in the `ada-mcp-tools` directory, use the following configuration for your `.goose-config.yml` (located at `goose-agent-chat/src/main/resources/.goose-config.yml`):
 
 ```yaml
 # Goose Configuration for Goose Agent Chat
